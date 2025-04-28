@@ -100,10 +100,3 @@
 // console.log("Секунд у добі: " + secondsInDay);
 // console.log("Секунд у місяці: " + secondsInMonth);
 
-let secondsInHour = 60 * 60;
-let secondsInDay = secondsInHour * 24;
-let secondsInMonth = secondsInDay * 30;
-
-console.log('Кількість секунд в годині:', secondsInHour);
-console.log('Кількість секунд в дні:', secondsInDay);
-console.log('Кількість секунд в місяці:', secondsInMonth);

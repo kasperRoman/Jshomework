@@ -130,3 +130,22 @@
 // В діапазоні годин 5-11 – має виводитися привітання “Доброго ранку”
 // В діапазоні годин 11-17 – має виводитися привітання “Доброго дня”
 // В діапазоні годин 17-23 – має виводитися привітання “Доброго вечора”.
+
+// let currentHour = new Date().getHours(); // Отримуємо поточну годину (0-23)
+
+// switch (true) {
+//     case (currentHour >= 23 || currentHour < 5):
+//         console.log("Доброї ночі");
+//         break;
+//     case (currentHour >= 5 && currentHour < 11):
+//         console.log("Доброго ранку");
+//         break;
+//     case (currentHour >= 11 && currentHour < 17):
+//         console.log("Доброго дня");
+//         break;
+//     case (currentHour >= 17 && currentHour < 23):
+//         console.log("Доброго вечора");
+//         break;
+//     default:
+//         console.log("Невідомий час");
+// }

@@ -247,7 +247,7 @@
 // }
 
 // // Функція для обробки фігур та розрахунку загальної площі
-// function handleFigures(figures) {
+// function handleFigures(figure   s) {               
 //     return figures.reduce((totalArea, figure) => {
 //         if (figure instanceof GeometricFigure) {
 //             const area = figure.getArea();

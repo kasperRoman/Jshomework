@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <!-- 2 -->
-     <!-- <p id="text">I learning JavaScript events!</p> 
+  <!-- 2 -->
+  <!-- <p id="text">I learning JavaScript events!</p> 
 <div>
 	<button onclick="changeCSS()">Change style!</button>
 </div> -->
 
-<!-- 3 -->
+  <!-- 3 -->
   <!-- <button id="btn1">Зробити фон синім (клік)</button>
   <button id="btn2">Зробити фон рожевим (подвійний клік)</button>
   <button id="btn3">Затисни для коричневого</button>
@@ -22,15 +24,48 @@
 
 
   <!-- 4 -->
-  <select id="mySelect">
+  <!-- <select id="mySelect">
     <option value="apple">Apple</option>
     <option value="banana">Banana</option>
     <option value="cherry">Cherry</option>
     <option value="date">Date</option>
   </select>
-  <button onclick="removeSelected()">Видалити обране</button>
+  <button onclick="removeSelected()">Видалити обране</button> -->
+
+  <!-- 5 -->
+  <!-- <button id="myButton">Click me!</button>
+  <ul id="messageList"></ul> -->
+<!-- -6 -->
+ 
+<!-- <h2>Поточний розмір вікна браузера</h2>
+    <p class="size-info" id="windowSize"></p> -->
 
 
-    <script src="script.js"></script>
+  <!-- 7 -->
+  <!-- <select name="country" id="country">
+    <option value="ger">Germany</option>
+    <option value="usa">USA</option>
+    <option value="ukr">Ukraine</option>
+  </select>
+  <select name="cities" id="cities"></select> -->
+
+  <label for="country">Країна:</label>
+  <select id="country">
+    <option value="">-- Оберіть країну --</option>
+    <option value="ukraine">Україна</option>
+    <option value="germany">Німеччина</option>
+    <option value="usa">США</option>
+  </select>
+
+  <label for="city">Місто:</label>
+  <select id="city">
+    <option value="">-- Спочатку оберіть країну --</option>
+  </select>
+
+  <div class="output" id="result"></div>
+
+
+  <script src="script.js"></script>
 </body>
+
 </html>
